@@ -1,0 +1,14 @@
+/* Cambia el color de solo los párrafos dentro del div */
+div.contenedor p {
+  color: blue;
+}
+
+/* Cambia el color del párrafo inmediatamente después del h2 */
+h2 + p {
+  color: red;
+}
+
+/* Cambia el color de todos los párrafos que siguen a un h2 */
+h2 ~ p {
+  color: green;
+}

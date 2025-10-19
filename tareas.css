@@ -1,0 +1,24 @@
+/* Alternar colores entre filas */
+li:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+li:nth-child(even) {
+  background-color: #ffffff;
+}
+
+/* Agregar caracteres antes del texto */
+li::before {
+  content: "➡️ ";
+}
+
+/* Efecto al pasar el mouse */
+li:hover {
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+/* Si está marcada como hecha, mostrar ✓ al final */
+li.hecha::after {
+  content: " ✓";
+  color: green;
+}

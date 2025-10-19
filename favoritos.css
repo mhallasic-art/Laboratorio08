@@ -1,0 +1,28 @@
+a:link {
+  color: green; /* enlaces no visitados */
+}
+
+a:visited {
+  color: purple; /* enlaces ya visitados */
+}
+
+a:hover {
+  color: red; /* al pasar el mouse */
+}
+
+a:active {
+  color: orange; /* al hacer clic */
+}
+
+/* Fondo diferente para cada enlace */
+li:nth-child(1) {
+  background-color: #f0f8ff;
+}
+
+li:nth-child(2) {
+  background-color: #e6ffe6;
+}
+
+li:nth-child(3) {
+  background-color: #fff0f5;
+}
